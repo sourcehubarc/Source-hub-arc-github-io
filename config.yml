@@ -9,9 +9,9 @@ public_folder: "/assets/images/uploads"
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "blog/posts"
+    folder: "blog"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
