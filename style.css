@@ -1,28 +1,35 @@
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
-  color: #333;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+    background: #0f0f1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-
-nav {
-  background-color: #007BFF;
-  padding: 10px 0;
+header {
+    background: #1e1e3f;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
+.logo {
+    height: 50px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
 nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-h1 {
-  margin-top: 40px;
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #1e1e3f;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
