@@ -1,8 +1,13 @@
-
 [build]
-  publish = "."
+publish = "/"
+command = ""
+
+[dev]
+  command = "npm start"
+  port = 8888
+  publish = "/"
 
 [[redirects]]
-  from = "/admin"
-  to = "/admin/index.html"
-  status = 200
+from = "/admin"
+to = "/admin/"
+status = 301
