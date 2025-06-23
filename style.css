@@ -1,31 +1,5 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fff;
-  color: #222;
-}
-header {
-  background: #000;
-  color: white;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-nav a {
-  margin: 0 10px;
-  color: #0bf;
-  text-decoration: none;
-}
-.logo {
-  height: 40px;
-}
-main {
-  padding: 20px;
-}
-footer {
-  text-align: center;
-  padding: 10px;
-  background: #f4f4f4;
-}
+
+body { font-family: sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+header { background: #222; color: #fff; padding: 1rem; text-align: center; }
+nav a { color: #4ac1f7; margin: 0 10px; text-decoration: none; }
+main, footer { padding: 1rem; text-align: center; }
