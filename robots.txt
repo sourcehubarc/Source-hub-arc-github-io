@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://sourcehubarc.netlify.app/sitemap.xml
